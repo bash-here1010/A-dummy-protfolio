@@ -1,0 +1,25 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: none;
+}
+@media screen and (max-width:420px){
+	.title{
+		font-size:2.1em;
+	}
+	p{
+		width:55%;
+		font-size:16px;
+	}
+}
+@media screen and (min-width:800px){
+	main{
+	  display:block;
+	  width:80%;
+	  margin-left:auto;
+	  margin-right:auto;
+	  }
+}
